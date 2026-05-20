@@ -1,0 +1,30 @@
+{
+  "name": "nexora-crm-backend",
+  "version": "1.0.0",
+  "description": "Backend API REST para Nexora CRM - Sistema completo de gestão comercial",
+  "main": "server.js",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "backup": "node backup.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": ["crm", "api", "nodejs", "express", "mysql", "sales", "leads", "opportunities"],
+  "author": "Nexora Solutions",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
